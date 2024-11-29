@@ -1,0 +1,124 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body{
+    background-color: hsl(292, 15%, 81%);
+}
+
+/* Main Container */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Input Section Styling */
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title Styling */
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+    color: hsl(236, 41%, 28%);
+    border-bottom: 1px solid hsl(226, 29%, 39%);
+    margin-bottom: 20px;
+    
+}
+
+/* Input Fields Styling */
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Text Input Styling */
+.input-container input[type="text"]{
+    width: 70%;
+    color: hsl(225, 73%, 4%);
+}
+
+/* Add Button Styling */
+.input-container input[type="button"]{
+    background-color: hsl(120, 46%, 44%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+/* Add Button Hover Effect */
+.input-container input[type="button"]:hover{
+    background-color: hsl(120, 34%, 54%);
+}
+
+/* To-Do List Styling */
+ul{
+    width: 70%;
+    max-width: 450px;
+}
+
+/* Individual To-Do Item Styling */
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 0.125px solid hsl(281, 67%, 62%);
+    padding: 6px 12px;
+    background-color: hsl(281, 52%, 74%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;
+}
+
+/* To-Do Item Hover Effect */
+ul li:hover{
+    background-color: hsl(281, 100%, 81%);
+}
+
+/* Text within To-Do Items */
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+/* Button Styling for Edit and Remove */
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* Remove Button Specific Styling */
+.deleteBtn{
+    color: hsl(0, 100%, 50%);
+}
+
+/* Edit Button Specific Styling */
+.editBtn{
+    color: hsl(240, 100%, 25%);
+}
